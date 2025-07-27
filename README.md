@@ -64,12 +64,13 @@ pacman -S libctru 3ds-mpg123 3ds-libopus 3ds-opusfile 3ds-libogg 3ds-libvorbisid
 
 Make sure to put `C:\devkitPro\tools\bin` on your PATH.
 
-To build, type `make` in the project folder.
+To build, cd into the project folder type `git submodule update --init --recursive` and then `make` to build the cia 3ds and elf files.
 
 ### Planned features
 * Playlist support.
 * Repeat and shuffle support.
 * Metadata support.
+* Equalizer support.
 
 #### Notes
 Due to limitations in [ctrulib](https://github.com/smealum/ctrulib/issues/328), only ASCII characters are displayed correctly. Other characters will appear garbled, but functionality is not affected.
