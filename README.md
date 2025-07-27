@@ -46,7 +46,7 @@ If you're unsure whether to make a pull request, just make it. :smiley:
 Build dependencies:
 - GNU Make
 - [makerom](https://github.com/3DSGuy/Project_CTR)
-- [bannertool](https://github.com/Steveice10/bannertool)
+- [bannertool](https://github.com/carstene1ns/3ds-bannertool.git)
 - [devkitARM](https://devkitpro.org/wiki/Getting_Started), with the following packages installed:
   - 3ds-libogg
   - 3ds-libopus
